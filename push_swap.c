@@ -12,15 +12,15 @@
 
 #include "swap.h"
 
-// void	print_list(t_node *a)
-// {
-// 	while (a)
-// 	{
-// 		printf("%d -> ", a->value);
-// 		a = a->next;
-// 	}
-// 	printf("NULL\n");
-// }
+void	print_list(t_node *a)
+{
+	while (a)
+	{
+		printf("%d  ", a->value);
+		a = a->next;
+	}
+	printf("\n");
+}
 
 void	free_stack(t_node **stack)
 {
