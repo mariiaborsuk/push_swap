@@ -44,7 +44,7 @@ Other Makefile rules: `make clean`, `make fclean`, `make re`.
 
 ## Errors
 
-The program prints `Error` on stderr if an argument is not an integer, if a number is bigger than `INT_MAX` or smaller than `INT_MIN`, or if there are duplicates.
+The program prints `Error` if an argument is not an integer, if a number is bigger than `INT_MAX` or smaller than `INT_MIN`, or if there are duplicates.
 
 ## My struct
 
